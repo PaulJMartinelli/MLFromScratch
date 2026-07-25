@@ -1,0 +1,6 @@
+[project]
+name = "ml-from-scratch"
+version = "0.1.0"
+
+[tool.setuptools]
+packages = ["ml"]
