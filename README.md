@@ -1,6 +1,6 @@
 # MLFromScratch - A Machine Learning Model library recreating widely used models
 
-** Important note:** This project is a a Work in Progress as of now, with the overall goal of solidifying my knowledge of ML on a core level. Expect progress to be gradual as this is a learning experience above all else
+**Important note:** This project is a a Work in Progress as of now, with the overall goal of solidifying my knowledge of ML on a core level. Expect progress to be gradual as this is a learning experience above all else
 
 
 ## Current Features 
