@@ -1,6 +1,6 @@
 import numpy as np
-from ml.base import BaseModel
-from ml.utils.metrics import mse
+from ML.base import BaseModel
+from ML.utils.metrics import mse
 
 class LinearRegression(BaseModel):
    
@@ -16,7 +16,7 @@ class LinearRegression(BaseModel):
    # X = input features(in matrix form), y = target values
    def fit(self, X, y):
        n_samples, n_features = X.shape
-       # Initialize slopes and y-intercept as 0
+       # initialize slopes and y-intercept as 0
        self.weights = np.zeros(n_features)
        self.bias = 0
 

@@ -1,10 +1,13 @@
 LICENSE
 README.md
 pyproject.toml
+ml/KNN.py
 ml/LinearRegression.py
+ml/LogisticRegression.py
 ml/base.py
 ml_from_scratch.egg-info/PKG-INFO
 ml_from_scratch.egg-info/SOURCES.txt
 ml_from_scratch.egg-info/dependency_links.txt
 ml_from_scratch.egg-info/top_level.txt
 tests/test_LinearRegression.py
+tests/test_LogisticRegression.py

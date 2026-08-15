@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
-from ml.base import BaseModel
-from ml.LinearRegression import LinearRegression
+from ML.base import BaseModel
+from ML.LinearRegression import LinearRegression
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression as SklearnLR
 
@@ -16,7 +16,7 @@ def test_on_small_dataset():
     model = LinearRegression()
     model.fit(X, y)
 
-    # Benchmark against sklearn's LinearRegression
+    # Benchmark against sklearn's LinearRegression (-v when running pytest to view)
     predictions = model.predict(X)
     print("MLFromScratch weights:", model.weights)
     print("MLFromScratch bias:", model.bias)

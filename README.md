@@ -7,11 +7,12 @@
 - Base model superclass
 - Modules(WIP)
 - Linear regression model, including testing & benchmarking
+- Logistic regression model, with pytest testing & benchmark notebook
+- KNN, with benchmarking/testing/visualization notebook
+- Classification Tree, including benchmarking
 
 ## Roadmap / Todo (models to be implemented)
-- Logistic Regression
-- KNN
-- Decision-tree
+- Regression tree
 - Random forest
 - K-means 
 - PCA
